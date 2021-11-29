@@ -1,0 +1,153 @@
+{
+    "flowers": [
+        {
+            "id": 1,
+            "color": "red",
+            "species": "Rose"
+        },
+        {
+            "id": 2,
+            "color": "violet",
+            "species": "Wisteria"
+        },
+        {
+            "id": 3,
+            "color": "yellow",
+            "species": "Daffodil"
+        },
+        {
+            "id": 4,
+            "color": "green",
+            "species": "Chrysanthemum"
+        },
+        {
+            "id": 5,
+            "color": "white",
+            "species": "Tulip"
+        }
+    ],
+    "nurseries": [
+        {
+            "id": 1,
+            "name": "Hessel Group"
+        },
+        {
+            "id": 2,
+            "name": "Roberts, Franecki and McGlynn"
+        },
+        {
+            "id": 3,
+            "name": "Wintheiser - Durgan"
+        }
+    ],
+    "nurseryFlowers": [
+        {
+            "id": 1,
+            "nurseryId": 1,
+            "flowerId": 1,
+            "price": 1.98,
+            "quantity": 750
+        },
+        {
+            "id": 2,
+            "nurseryId": 1,
+            "flowerId": 4,
+            "price": 2.22,
+            "quantity": 823
+        },
+        {
+            "id": 3,
+            "nurseryId": 1,
+            "flowerId": 5,
+            "price": 1.50,
+            "quantity": 525
+        },
+        {
+            "id": 4,
+            "nurseryId": 2,
+            "flowerId": 1,
+            "price": 2.10,
+            "quantity": 750
+        },
+        {
+            "id": 5,
+            "nurseryId": 2,
+            "flowerId": 3,
+            "price": 2.43,
+            "quantity": 689
+        },
+        {
+            "id": 6,
+            "nurseryId": 2,
+            "flowerId": 2,
+            "price": 2.60,
+            "quantity": 712
+        },
+        {
+            "id": 7,
+            "nurseryId": 3,
+            "flowerId": 2,
+            "price": 2.25,
+            "quantity": 736
+        },
+        {
+            "id": 8,
+            "nurseryId": 3,
+            "flowerId": 5,
+            "price": 3.10,
+            "quantity": 500
+        },
+        {
+            "id": 9,
+            "nurseryId": 3,
+            "flowerId": 4,
+            "price": 3.44,
+            "quantity": 980
+        }
+    ],
+    "distributors": [
+        {
+            "id": 1,
+            "name": "Koepp - Toy",
+            "markupPercent": 6
+        },
+        {
+            "id": 2,
+            "name": "Hauck - Padberg",
+            "markupPercent": 8 
+        },
+        {
+            "id": 3,
+            "name": "Hauck LLC",
+            "markupPercent": 5
+        }
+    ],
+    "distributorFlowers": [],
+    "retailers": [
+        {
+            "id": 1,
+            "name": "Torp, Auer and Rath",
+            "streetAddress": "419 Moises Crossing",
+            "cityState": "East Estellshire, TX",
+            "zipCode": "71500",
+            "markupPercent": 10
+        },
+        {
+            "id": 2,
+            "name": "Stamm, Rath and MacGyver",
+            "streetAddress": "30424 Welch Divide",
+            "cityState": "New Lizeth, WI",
+            "zipCode": "76108",
+            "markupPercent": 12
+        },
+        {
+            "id": 3,
+            "name": "Rosenbaum, Parisian and Lakin",
+            "streetAddress": "4637 Kautzer Village",
+            "cityState": "Shieldsmouth, DE",
+            "zipCode": "89671",
+            "markupPercent": 15
+        }
+    ],
+    "retailerFlowers": []
+}
